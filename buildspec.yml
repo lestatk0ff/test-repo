@@ -14,8 +14,6 @@ phases:
       - echo "Validating packer.json"
       - ./packer validate packer.json
   build:
-    runtime-versions:
-      java: openjdk8
     commands:
       ### HashiCorp Packer cannot currently obtain the AWS CodeBuild-assigned role and its credentials
       ### Manually capture and configure the AWS CLI to provide HashiCorp Packer with AWS credentials
