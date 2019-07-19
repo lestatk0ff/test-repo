@@ -12,6 +12,7 @@
         "ami_name": "{{user `aws_ami_name`}}",
         "ami_description": "Customized Amazon Linux",
         "associate_public_ip_address": "true",
+	"vpc_id": "vpc-31dc1057",
 	"subnet_id": "subnet-36cc3c7e",
         "source_ami_filter": {
             "filters": {
