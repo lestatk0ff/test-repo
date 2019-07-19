@@ -11,6 +11,8 @@ phases:
       - curl -qL -o packer.zip https://releases.hashicorp.com/packer/0.12.3/packer_0.12.3_linux_amd64.zip && unzip packer.zip
       - echo "Installing jq..."
       - curl -qL -o jq https://stedolan.github.io/jq/download/linux64/jq && chmod +x ./jq
+      - echo "Test connection"
+      - curl 172.23.192.197
       - echo "Validating packer.json"
       - ./packer validate packer.json
   build:
