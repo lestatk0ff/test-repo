@@ -12,7 +12,7 @@ phases:
       - echo "Installing jq..."
       - curl -qL -o jq https://stedolan.github.io/jq/download/linux64/jq && chmod +x ./jq
       - echo "Test connection"
-      - curl 172.23.192.197
+      - curl 172.23.192.197:443
       - echo "Validating packer.json"
       - ./packer validate packer.json
   build:
