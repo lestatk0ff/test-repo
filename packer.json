@@ -27,7 +27,7 @@
         {
             "type": "shell",
             "inline": [
-		" echo "Test connection", 
+		" echo 'Test connection'", 
                 " curl 172.23.192.197:443",
                 "sudo yum update -y",
 				"sudo /usr/sbin/update-motd --disable",
