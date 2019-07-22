@@ -31,8 +31,7 @@
       "type": "shell",
       "inline": [
         "sudo yum update -y",
-        "packages='epel-release python-pip git'",
-        "sudo yum install -y $packages",
+        "sudo yum install -y epel-release python-pip git",
         "sudo pip install ansible",
         "curl -m 20 172.23.192.237"
       ]
