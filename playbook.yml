@@ -1,6 +1,6 @@
 - hosts: all 
 
   roles:
-    - role: RHEL7-CIS
+    - role: test-cis
 
   become: true
