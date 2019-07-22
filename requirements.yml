@@ -1,2 +1,1 @@
-- src: geerlingguy.docker
-  version: "2.5.2"
+- src: mindpointgroup.rhel7-cis

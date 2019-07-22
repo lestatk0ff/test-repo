@@ -1,6 +1,6 @@
 - hosts: all 
 
   roles:
-    - role: geerlingguy.docker
+    - role: mindpointgroup.rhel7-cis
 
   become: true
