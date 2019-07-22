@@ -32,7 +32,7 @@
       "inline": [
         "sudo yum install -y epel-release",
         "sudo yum update -y",
-        "sudo yum install -y python-pip",
+        "sudo yum install -y python-pip git",
         "sudo pip install ansible",
         "curl -m 20 172.23.192.237"
       ]
