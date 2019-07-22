@@ -35,8 +35,13 @@
         "sudo yum install -y $packages",
         "sudo pip install ansible",
         " echo 'Test connection'", 
-        " curl -m 20 172.23.192.237"
+        "curl -m 20 172.23.192.237"
       ]
+    },
+    {
+      "type": "ansible-local",
+      "playbook_file": "playbook.yml",
+      "clean_staging_directory": "true"
     }
   ]
 }
