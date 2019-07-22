@@ -1,6 +1,6 @@
 - hosts: all 
 
   roles:
-    - role: mindpointgroup.rhel7-cis
+    - role: RHEL7-CIS
 
   become: true

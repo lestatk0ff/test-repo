@@ -1,1 +1,1 @@
-- src: mindpointgroup.rhel7-cis
+- src: https://github.com/MindPointGroup/RHEL7-CIS.git
