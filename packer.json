@@ -31,16 +31,15 @@
       "type": "shell",
       "inline": [
         "sudo yum update -y",
-        "packages='epel-release python-pip'",
+        "packages='epel-release python-pip git'",
         "sudo yum install -y $packages",
         "sudo pip install ansible",
-        " echo 'Test connection'", 
-        "curl -m 20 172.23.192.237",
-        "ansible-galaxy install --role-file requirements.yml --roles-path .ansible_roles"
+        "curl -m 20 172.23.192.237"
       ]
     },
     {
       "type": "ansible-local",
+      "galaxy_file": "requirements.yml",
       "playbook_file": "playbook.yml",
       "clean_staging_directory": "true"
     }
