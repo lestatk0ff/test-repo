@@ -14,7 +14,7 @@
         "associate_public_ip_address": "true",
 	"vpc_id": "vpc-31dc1057",
 	"subnet_id": "subnet-36cc3c7e",
-	"ssh_private_ip ": "true",
+	"ssh_private_ip": "true",
         "source_ami_filter": {
             "filters": {
                 "virtualization-type": "hvm",
