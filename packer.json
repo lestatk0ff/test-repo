@@ -34,7 +34,7 @@
         "sudo yum update -y",
         "sudo yum install -y python36-setuptools git",
 	"sudo easy_install-3.6 pip",
-        "sudo pip3.7 install ansible",
+        "sudo pip install ansible",
         "curl -m 20 172.23.192.237"
       ]
     },
