@@ -32,8 +32,8 @@
       "inline": [
         "sudo yum install -y epel-release",
         "sudo yum update -y",
-        "sudo yum install -y python34-setuptools git",
-	"sudo easy_install-3.4 pip",
+        "sudo yum install -y python36-setuptools git",
+	"sudo easy_install-3.6 pip",
         "sudo pip3 install ansible",
         "curl -m 20 172.23.192.237"
       ]
