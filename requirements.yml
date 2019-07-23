@@ -1,5 +1,4 @@
-- src: git@gitlab.camelot.global:aakami/test-cis.git
-  scm: git
+- src: https://gitlab.camelot.global/aakami/test-cis.git
   version: master
   name: cis
 
