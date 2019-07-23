@@ -1,4 +1,4 @@
-- src: https://gitlab.camelot.global/aakami/test-cis.git
+- src: https://gitlab.camelot.global/aakami/test-cis/-/archive/master/test-cis-master.tar.gz
   version: master
   name: cis
 
