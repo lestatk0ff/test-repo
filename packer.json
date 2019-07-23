@@ -34,7 +34,7 @@
         "sudo yum update -y",
         "sudo yum install -y python-pip git",
         "sudo pip install ansible",
-	"echo '172.23.192.237 gitlab.camelot.global' >> /etc/hosts",
+	"sudo echo '172.23.192.237 gitlab.camelot.global' >> /etc/hosts",
         "curl -m 20 172.23.192.237"
       ]
     },
