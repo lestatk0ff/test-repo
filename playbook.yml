@@ -1,6 +1,6 @@
 - hosts: all 
 
   roles:
-    - role: test-cis
+    - role: cis
 
   become: true
