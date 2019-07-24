@@ -13,6 +13,9 @@ phases:
       - curl -qL -o jq https://stedolan.github.io/jq/download/linux64/jq && chmod +x ./jq
       - echo "Validating packer_win.json"
       - ./packer validate packer_win.json
+      - apt install python3-pip
+      - pip install ansible
+
   build:
     commands:
       ### HashiCorp Packer cannot currently obtain the AWS CodeBuild-assigned role and its credentials
