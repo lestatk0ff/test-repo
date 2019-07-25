@@ -52,8 +52,8 @@
       "type":  "ansible",
       "playbook_file": "./win-playbook.yml",
       "extra_arguments": [
-        "--connection", "packer", "-vvv",
-        "--extra-vars", "ansible_shell_type=powershell ansible_shell_executable=None ansible_ssh_user=root ansible_ssh_port=5986"
+        "--connection", "packer", "-vvvv",
+        "--extra-vars", "ansible_shell_type=powershell ansible_shell_executable=None ansible_ssh_user=root "
       ]
   },
   {
