@@ -50,10 +50,13 @@
     },
   {
     "type": "shell-local",
-    "command": "ansible-galaxy install -r ./requirements_win.yml"
+    "command": "ansible-galaxy install -r ./requirements_win.yml -p ~/galaxy"
   },
   {
       "type":  "ansible",
+      "ansible_env_vars": [
+        "ANSIBLE_ROLES_PATH='~/galaxy'"
+      ],
       "playbook_file": "./win-playbook.yml",
       "extra_arguments": [
         "--connection", "packer", "-vvvv",
