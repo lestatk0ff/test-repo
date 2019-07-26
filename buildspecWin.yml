@@ -12,7 +12,7 @@ phases:
       - echo "Installing jq..."
       - echo "Installing Ansible"
       - apt install python3-pip
-      - pip install ansible
+      - pip install ansible==2.6.0
       - curl -qL -o jq https://stedolan.github.io/jq/download/linux64/jq && chmod +x ./jq
       - echo "Validating packer_win.json"
       - ./packer validate packer_win.json
