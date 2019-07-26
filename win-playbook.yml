@@ -2,7 +2,9 @@
 
 - hosts: all
   gather_facts: no
-  
+
+  roles:
+    - dev-sec.windows-hardening  
   tasks:
     - win_ping:
       #- ping:
