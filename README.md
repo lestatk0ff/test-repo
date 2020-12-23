@@ -1,7 +1,7 @@
 # test-repo
 ## test
 
-<img src="https://img.shields.io/github/v/tag/guzzle/guzzle?sort=date"><br>
+[![GitHub tag](https://img.shields.io/github/tag/lestatk0ff/test-repo.svg)](https://GitHub.com/lestatk0ff/test-repo/tags/)
 
 FFF
 asdasdas
