@@ -20,7 +20,7 @@ jobs:
     runs-on: macos-11.0
     steps:
       - name: Show date
-        run: date -j -vJulm -v20d -v1999y '+%A'
+        run: date
   job2:
     runs-on: ubuntu-latest
     steps:
