@@ -33,7 +33,7 @@ jobs:
         run: "Date"
   job4:
     runs-on: ubuntu-latest
-    needs: [jobq, job2, job3]
+    needs: [job1, job2, job3]
     steps:
       - name: Show date
         run: date
