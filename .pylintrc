@@ -1,5 +1,5 @@
 [MASTER]
 disable=all
 
-enable=import-error,
-       import-self
+#enable=import-error,
+#       import-self
