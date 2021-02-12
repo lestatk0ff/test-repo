@@ -24,7 +24,7 @@ jobs:
     - name: Python Code Quality and Lint
       uses: ricardochaves/python-lint@v1.3.0
       with:
-        python-root-list: ./test-repo/connection_plugins/packer.py
+        python-root-list: ./connection_plugins/packer.py
         use-pylint: true
         use-pycodestyle: false
         use-flake8: false
