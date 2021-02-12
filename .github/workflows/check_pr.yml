@@ -34,7 +34,7 @@ jobs:
         use-mypy: false
         use-isort: false
     - name: Test code
-      shell: python hello.py | grep Hello || exit 1
+      run: python hello.py | grep Hello || exit 1
   upload:
       - name: Upload artifact
         needs: [lint]
