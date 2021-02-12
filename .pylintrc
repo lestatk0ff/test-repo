@@ -1,0 +1,4 @@
+disable=all
+
+enable=import-error,
+       import-self
