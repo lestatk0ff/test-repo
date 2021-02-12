@@ -1,6 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
 name: Check_on_PR
+env:
+  artifact_name: hello.py
 
 # Controls when the action will run. 
 on:
@@ -31,4 +33,12 @@ jobs:
         use-black: false
         use-mypy: false
         use-isort: false
-  
+    - name: Test code
+      shell: python hello.py | grep Hello || exit 1
+  upload:
+      - name: Upload artifact
+        needs: [lint]
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{env.artifact_name}}
+          path: .
