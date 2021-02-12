@@ -37,9 +37,9 @@ jobs:
       run: python hello.py | grep Hello || exit 1
   upload:
     runs-on: ubuntu-latest
+    needs: [lint]
     steps:
       - name: Upload artifact
-        needs: [lint]
         uses: actions/upload-artifact@v2
         with:
           name: ${{env.artifact_name}}
